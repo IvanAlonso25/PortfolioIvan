@@ -1,6 +1,6 @@
 import '../styles/card.css';
 import ticTacToe from '../assets/tic-tac-toe.png';
-import fllowPointer from '../assets/follow-pointer.png';
+import followPointer from '../assets/follow-pointer.png';
 import calculator from '../assets/calculator.png';
 import todoList from '../assets/todoList.png';
 import webGym from '../assets/webGym.png';
@@ -22,14 +22,14 @@ export function Card() {
                     <img src={css} alt="CSS" />
                     <img src={javascript} alt="JavaScript" />
                     <div>
-                        <button>
+                        <button onClick={() => window.open('https://tictactoe-ivan.netlify.app/')}>
                             Go to project
                         </button>
                     </div>
                 </div>
             </div>
             <div className="card">
-                <img src={fllowPointer} alt="Follow Pointer" />
+                <img src={followPointer} alt="Follow Pointer" />
                 <h4>Following the mouse</h4>
                 <p>This project consists of an interactive web application that tracks and visualizes the movement of the mouse cursor in real time.
                     Using REACT, CSS, and JavaScript, a dynamic interface is created where an element (such as a circle or a dot)
@@ -39,7 +39,7 @@ export function Card() {
                     <img src={css} alt="CSS" />
                     <img src={javascript} alt="JavaScript" />
                     <div>
-                        <button>
+                        <button onClick={() => window.open('https://follow-pointer-only.netlify.app/')}>
                             Go to project
                         </button>
                     </div>
@@ -55,7 +55,7 @@ export function Card() {
                     <img src={css} alt="CSS" />
                     <img src={javascript} alt="JavaScript" />
                     <div>
-                        <button>
+                        <button onClick={() => window.open('https://calculator-tor.netlify.app/')}>
                             Go to project
                         </button>
                     </div>
@@ -71,7 +71,7 @@ export function Card() {
                     <img src={css} alt="CSS" />
                     <img src={javascript} alt="JavaScript" />
                     <div>
-                        <button>
+                        <button onClick={() => window.open('https://activelifewithivan.netlify.app/')}>
                             Go to project
                         </button>
                     </div>
@@ -89,7 +89,7 @@ export function Card() {
                     <img src={css} alt="CSS" />
                     <img src={javascript} alt="JavaScript" />
                     <div>
-                        <button>
+                        <button onClick={() => window.open('https://todo-list-project-ivan.netlify.app/')}>
                             Go to project
                         </button>
                     </div>
