@@ -21,6 +21,11 @@ export function Card() {
                     <img src={react} alt="React" />
                     <img src={css} alt="CSS" />
                     <img src={javascript} alt="JavaScript" />
+                    <div>
+                        <button>
+                            Go to project
+                        </button>
+                    </div>
                 </div>
             </div>
             <div className="card">
@@ -33,6 +38,11 @@ export function Card() {
                     <img src={react} alt="React" />
                     <img src={css} alt="CSS" />
                     <img src={javascript} alt="JavaScript" />
+                    <div>
+                        <button>
+                            Go to project
+                        </button>
+                    </div>
                 </div>
             </div>
             <div className="card">
@@ -44,6 +54,11 @@ export function Card() {
                     <img src={react} alt="React" />
                     <img src={css} alt="CSS" />
                     <img src={javascript} alt="JavaScript" />
+                    <div>
+                        <button>
+                            Go to project
+                        </button>
+                    </div>
                 </div>
             </div>
             <div className="card">
@@ -55,6 +70,11 @@ export function Card() {
                     <img src={react} alt="React" />
                     <img src={css} alt="CSS" />
                     <img src={javascript} alt="JavaScript" />
+                    <div>
+                        <button>
+                            Go to project
+                        </button>
+                    </div>
                 </div>
             </div>
             <div className="card">
@@ -68,6 +88,11 @@ export function Card() {
                     <img src={react} alt="React" />
                     <img src={css} alt="CSS" />
                     <img src={javascript} alt="JavaScript" />
+                    <div>
+                        <button>
+                            Go to project
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>

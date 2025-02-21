@@ -12,15 +12,15 @@ export function Presentation() {
                 <h1>Iván Alonso</h1>
                 <p>Web developer with 1+ year of experience</p>
                 <div className='buttons-presentation'>
-                    <button>
+                    <button onClick={() => window.open('https://www.linkedin.com/in/ivan-alonso-1a1b3a1b0/')}>
                         <img src={linkedIn} alt="Logo LinkedIn" />
                         <p>LinkedIn</p>
                     </button>
-                    <button>
+                    <button onClick={() => window.open('https://github.com/IvanAlonso25')}>
                         <img src={github} alt="Logo GitHub" />
                         <p>GitHub</p>
                     </button>
-                    <button>
+                    <button onClick={() => window.open('mailto: ialonso479@gmail.com')}>
                         <img src={mail} alt="Logo Mail" color='white'/>
                         <p>Email</p>
                     </button>
