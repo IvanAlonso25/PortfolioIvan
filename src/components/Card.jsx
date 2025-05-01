@@ -99,7 +99,7 @@ export function Card() {
             <div className="card">
                 <img src={skycast} alt="SkyCast" />
                 <h4>SkyCast</h4>
-                <p>This is an application that tells you the weather in the location you searched for.</p>
+                <p>This is an application that tells you the weather in the location you searched for.<strong>The API request only works locally; when deployed to Netlify, the API request doesn`t work.</strong></p>
                 <div className="technologies">
                     <img src={react} alt="React" />
                     <img src={css} alt="CSS" />
