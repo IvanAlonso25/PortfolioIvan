@@ -4,6 +4,7 @@ import followPointer from '../assets/follow-pointer.png';
 import calculator from '../assets/calculator.png';
 import todoList from '../assets/todoList.png';
 import webGym from '../assets/webGym.png';
+import skycast from '../assets/skycast.webp';
 import javascript from '../assets/javascript.svg';
 import react from '../assets/react.svg';
 import css from '../assets/css3.svg';
@@ -84,6 +85,21 @@ export function Card() {
                     It allows users to add tasks, mark them as completed, and delete them. However, as an initial project, it has some bugs, 
                     such as the limitation of only being able to delete the first entry in the list. Despite its imperfections, this project was a great learning experience in DOM manipulation, 
                     event handling, and basic programming logic. It represents my first step into web development and my motivation to keep improving.</p>
+                <div className="technologies">
+                    <img src={react} alt="React" />
+                    <img src={css} alt="CSS" />
+                    <img src={javascript} alt="JavaScript" />
+                    <div>
+                        <button onClick={() => window.open('https://todo-list-project-ivan.netlify.app/')}>
+                            Go to project
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div className="card">
+                <img src={skycast} alt="SkyCast" />
+                <h4>SkyCast</h4>
+                <p>This is an application that tells you the weather in the location you searched for.</p>
                 <div className="technologies">
                     <img src={react} alt="React" />
                     <img src={css} alt="CSS" />
