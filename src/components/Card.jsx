@@ -105,7 +105,7 @@ export function Card() {
                     <img src={css} alt="CSS" />
                     <img src={javascript} alt="JavaScript" />
                     <div>
-                        <button onClick={() => window.open('https://todo-list-project-ivan.netlify.app/')}>
+                        <button onClick={() => window.open('https://skycast-determinate.netlify.app/')}>
                             Go to project
                         </button>
                     </div>
